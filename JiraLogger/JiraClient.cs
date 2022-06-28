@@ -10,8 +10,6 @@ namespace JiraLogger
         private string _userId = $"{Environment.UserName}@volo.global";
         private string _apiKey = "MDijmT31gRwmZBC0p5oXD6D2";
 
-        private readonly bool _isEvenNum = DateTime.Now.Day % 2 == 0;
-
         private readonly HttpClient _httpClient;
         protected readonly JsonSerializerOptions JsonSerializerOptions;
 
