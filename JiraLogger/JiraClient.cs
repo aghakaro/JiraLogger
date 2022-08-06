@@ -6,9 +6,9 @@ namespace JiraLogger
 {
     public class JiraClient
     {
-        private const string _defaultUrl = "https://perrknight.atlassian.net/";
-        private string _userId = $"{Environment.UserName}@volo.global";
-        private string _apiKey = "MDijmT31gRwmZBC0p5oXD6D2";
+        private const string _defaultUrl = "";
+        private string _userId = $"";
+        private string _apiKey = "";
 
         private readonly HttpClient _httpClient;
         protected readonly JsonSerializerOptions JsonSerializerOptions;
